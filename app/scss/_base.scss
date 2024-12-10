@@ -1,0 +1,33 @@
+/* ==================================================================================== */
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: #FAFBFF;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-y: hidden;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+input[type=email],
+input[type=tel],
+input[type=text],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+/* ==================================================================================== */
